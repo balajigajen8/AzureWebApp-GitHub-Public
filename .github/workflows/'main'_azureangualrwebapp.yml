@@ -55,5 +55,5 @@ jobs:
         with:
           app-name: 'AzureAngularWebApp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZURE_CREDENTIALS }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DBBE1DF8774E4DC585A981F84FB40209 }}
           package: dist

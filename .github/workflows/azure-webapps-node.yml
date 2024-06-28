@@ -3,7 +3,7 @@ on:
 env:
   AZURE_WEBAPP_NAME: 'AzureAngularWebApp'
   AZURE_WEBAPP_PACKAGE_PATH: '.'
-  NODE_VERSION: '14.x'
+  NODE_VERSION: '18.x'
 permissions:
   contents: read
 jobs:
